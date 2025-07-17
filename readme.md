@@ -21,6 +21,12 @@ Or `uv pip install -r requirements.txt` and then `uv pip install git+https://git
 ## Dataset & Checkpoints & Our Results
 We zip (`dataset`, `checkpoints` and `our results`) into [`assets.zip`](https://drive.google.com/file/d/1nksMGiUzk-Xk_BpW22b87gEeUquNngTL/view?usp=sharing). Download and unzip it to current directory. 
 
+**note:** Run below to fix a minor mistake.
+```shell 
+cd assets
+mv dataset datasets
+```
+
 ## Training
 ```shell
 source .venv/bin/activate
