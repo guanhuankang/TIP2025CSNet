@@ -1,0 +1,1 @@
+python evalmask.py --save bool:True --crf_round int:10 --name eval_with_crf10 --testSet ECSSD --tobe_eval_path PATH_TO_OBJ_MASK_DIRECTORY
