@@ -2,6 +2,10 @@
 
 > This is the official repo for journal paper "A Contrastive-Learning Framework for Unsupervised Salient Object Detection" (TIP2025).
 
+> Authors: Huankang Guan, Jiaying Lin, [Rynson W.H. Lau](https://www.cs.cityu.edu.hk/~rynson/)
+
+> City University of Hong Kong
+
 ![Fig.1](doc/fig1.png)
 
 ## Installation
