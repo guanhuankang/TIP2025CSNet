@@ -26,7 +26,8 @@ We zip (`dataset`, `checkpoints` and `our results`) into [`assets.zip`](https://
 source .venv/bin/activate
 python train.py --name training_csnet
 ```
-The output is located in `assets/output/training_csnet`. 
+The output is located in `assets/output/training_csnet`. **Please note that our codebase does not include the self-training stage. If you wish to perform self-training, you can use the output from our CSNet as pseudo labels to train ![SelfMask](https://github.com/noelshin/selfmask) for the final output.**
+
 
 ## Inference
 ```shell
